@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+/* Style de base pour tout le formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Style des champs de formulaire */ 
+select{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #a71e1e;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style des étiquettes */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style des boutons */
+  button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+
+  
